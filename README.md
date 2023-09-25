@@ -1,18 +1,18 @@
 # Predictive DocV SDK v3 Flutter
 
-The Predictive Document Verification (DocV) SDK v3 for Flutter is a Flutter wrapper that allows you to use the DocV SDK for Android and iOS in your Flutter application.
+The Predictive Document Verification (DocV) SDK v4 for Flutter is a Flutter wrapper that allows you to use the DocV SDK for Android and iOS in your Flutter application.
 
 ## Minimum Requirements
 
 **iOS**
 
 - Support for iOS 13 and later
-- Xcode version 13+
+- Xcode version 14+
 
 **Android**
 
 - Android SDK Version 22 (OS Version 5.1) and later
-- Android SDK is compiled with `compileSdkVersion` 32 and Java 11
+- Android SDK is compiled with `compileSdkVersion` 33 and Java 11
 
 ## Install
 on your `pubspec.yaml`
@@ -35,7 +35,7 @@ socure:
                 ext {
                      ....
                     minSdkVersion = 22 
-                    compileSdkVersion = 32
+                    compileSdkVersion = 33
                     .....
                 }
     }
